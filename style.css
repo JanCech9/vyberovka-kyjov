@@ -14,7 +14,10 @@ h1 {
   font-weight: bold;
 }
 
-
+li {
+  list-style-type: none;
+  margin: 0 25px 0 0;
+}
 
 #map {
   margin: auto;
