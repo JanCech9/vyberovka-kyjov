@@ -3,13 +3,18 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  font-family: 'Space Mono', monospace;
+  text-align: center;
+
 }
 
 h1 {
   margin: 12px;
-  text-align: center;
   font-size: 24px;
+  font-weight: bold;
 }
+
+
 
 #map {
   margin: auto;
