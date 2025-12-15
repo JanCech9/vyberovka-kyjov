@@ -39,7 +39,7 @@ footer {
 /* Leaflet popup override */
 .leaflet-popup-content {
   margin: 12px;
-  font-family: Arial, sans-serif;
+  font-family: 'Space Mono', monospace;
 }
 
 .popup {

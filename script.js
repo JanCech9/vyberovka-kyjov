@@ -34,7 +34,7 @@ const popupHtml = `
     <div class="popup-row">
       <span class="popup-label">🕒 Otevírací doba</span>
       <span class="popup-text">
-        ${place.hours}
+        ${place.hours.forEach ? place.hours.join("<br>") : place.hours}
       </span>
     </div>
 
