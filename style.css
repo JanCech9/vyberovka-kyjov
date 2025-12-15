@@ -18,6 +18,10 @@ li {
   margin: 0 25px 0 0;
 }
 
+a {
+  color: inherit;
+}
+
 #map {
   align-self: center;
   height: 30rem;
@@ -27,13 +31,18 @@ li {
 .info {
   margin: 20px 0;
 }
+footer {
+  margin: 20px;
+  font-size: 10px;
+}
+
 
 @media (max-width: 768px) {
   #map {
-    width: 90%;
     height: 24rem;
+    width: 100%;
   }  
   .info {
-  margin: 20px;
+    margin: 20px;
   }
 }
