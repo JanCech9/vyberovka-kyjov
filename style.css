@@ -36,6 +36,56 @@ footer {
   font-size: 10px;
 }
 
+/* Leaflet popup override */
+.leaflet-popup-content {
+  margin: 12px;
+  font-family: Arial, sans-serif;
+}
+
+.popup {
+  min-width: 220px;
+}
+
+.popup-title {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.popup-row {
+  margin-bottom: 6px;
+}
+
+.popup-label {
+  display: block;
+  font-size: 11px;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.popup-text {
+  font-size: 13px;
+  color: #111;
+}
+
+.popup-links {
+  margin-top: 10px;
+  display: flex;
+  gap: 12px;
+}
+
+.popup-links a {
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #000;
+}
+
+.popup-links a:hover {
+  text-decoration: underline;
+}
+
 
 @media (max-width: 768px) {
   #map {
