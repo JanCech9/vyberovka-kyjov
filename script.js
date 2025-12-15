@@ -1,53 +1,4 @@
-// Data for coffee places
-const PLACES = [
-  {
-    name: "Kaflík",
-    lat: 49.018145,
-    lng: 17.1339061,
-    address: "Nětčická 2647/80A, Kyjov",
-    hours: [
-      "Po: 6:45–18:00",
-      "Út: 6:45–18:00",
-      "St: 6:45–18:00",
-      "Čt: 6:45–18:00",
-      "Pá: 6:45–18:00",
-      "So: 9:00–16:00",
-      "Ne: 9:00–16:00"
-    ],
-    website: "https://kaflik.cz"
-  },
-  {
-    name: "Amazonka",
-    lat: 49.00992,
-    lng: 17.1269453,
-    address: "Masarykovo nám. 63/43, Kyjov",
-    hours: [
-      "Po: 7:30–18:00",
-      "Út: 7:30–18:00",
-      "St: 7:30–18:00",
-      "Čt: 7:30–18:00",
-      "Pá: 7:30–19:00",
-      "So: 9:00–19:00",
-      "Ne: 9:00–18:00"
-    ],    website: "https://kavarnaamazonka.cz/"
-  },
-  {
-    name: "Pražírna",
-    lat: 49.0109994,
-    lng: 17.1264969,
-    address: "tř. Komenského 1407/14, Kyjov",
-    hours: [
-      "Po: 10:00–19:00",
-      "Út: 10:00–19:00",
-      "St: 10:00–19:00",
-      "Čt: 10:00–19:00",
-      "Pá: 10:00–22:00",
-      "So: 10:00–22:00",
-      "Ne: 13:00–19:00"
-    ],    website: "https://prazirnakyjov.cz/"
-  }
-];
-
+// Custom black SVG marker
 const blackIcon = L.divIcon({
   className: "custom-marker",
   html: `
@@ -62,7 +13,7 @@ const blackIcon = L.divIcon({
   popupAnchor: [0, -36]
 });
 
-// Init map (Kyjov)
+// Init map
 const map = L.map("map").setView([49.01, 17.13], 14);
 
 // OpenStreetMap tiles (stable & free)
