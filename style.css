@@ -86,7 +86,10 @@ footer {
   text-decoration: underline;
 }
 
-
+#logo {
+  width: 150px;
+  margin: 20px auto 30px auto;
+}
 @media (max-width: 768px) {
   #map {
     height: 24rem;
